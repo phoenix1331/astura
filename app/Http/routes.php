@@ -11,6 +11,8 @@
 |
 */
 
+
+/*Closures*/
 Route::get('/', function () {
     return view('home')->with('title' , 'Human Communication, Online...');
 });
@@ -27,14 +29,9 @@ Route::get('engage', function(){
 	return view('products.engage')->with('title' , 'Astura Engage');
 });
 
-Route::get('blog', function(){
-	return view('blog')->with('title' , 'Astura Blog');
-});
-
 Route::get('careers', function(){
 	return view('careers')->with('title' , 'Work at Astura');
 });
-
 
 Route::get('contact', function(){
 	return view('contact')->with('title' , 'Contact Astura');
@@ -43,3 +40,6 @@ Route::get('contact', function(){
 Route::post('contact', function(){
 	return view('contact')->with(array('title' => 'Contact Astura', 'message' => 'Thank you !'));
 });
+
+
+Route::resource('blog', 'PostsController');

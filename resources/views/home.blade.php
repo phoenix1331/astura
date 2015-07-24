@@ -1,9 +1,9 @@
 @extends('app')
 @section('content')
 <div class="container-fluid">
-    <video poster="<?php echo asset('img/home.jpg'); ?>" autoplay loop>
-    <source src="<?php echo asset('video/home.mp4'); ?>" type="video/mp4">
-    </video>
+    <!-- <video poster="<?php //echo asset('img/home.jpg'); ?>" autoplay loop>
+    <source src="<?php //echo asset('video/home.mp4'); ?>" type="video/mp4">
+    </video> -->
     <div class="jumbotron">
         <div class="container">
           <h1>Human Communication, Online...</h1>
@@ -33,22 +33,22 @@
         <hr />
         <div class="row">
             <div class="col-lg-4">
-                <img class="" src="https://placeimg.com/300/150/tech" alt="Generic placeholder image">
+                <img class="" src="<?php echo asset('../img/tech.jpg'); ?>" alt="Generic placeholder image">
               <h2>Reach</h2>
               <p>The only client communication tool built specifically for the financial services market.</p>
-              <p><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                    <img class="" src="https://placeimg.com/300/150/tech" alt="Generic placeholder image">
+                    <img class="" src="<?php echo asset('../img/tech.jpg'); ?>" alt="Generic placeholder image">
               <h2>Engage</h2>
               <p>Market leading customer engagement technology in an easy to use and lightweight interface.</p>
-              <p><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
            </div>
             <div class="col-lg-4">
-                    <img class="" src="https://placeimg.com/300/150/tech" alt="Generic placeholder image">
+                    <img class="" src="<?php echo asset('../img/tech.jpg'); ?>" alt="Generic placeholder image">
               <h2>About</h2>
-              <p>Engage - market leading customer engagement technology in an easy to use and lightweight interface.</p>
-              <p><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p>
+              <p>market leading customer engagement technology in an easy to use and lightweight interface.</p>
+              <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
             </div>
         </div>
         <hr />

@@ -25,22 +25,16 @@
             </div>
             <div class="col-lg-6">
             <div class="form-create">
-                    {!! Form::model( [ 'files'=> true, 'route' => ['jobs.store']]) !!}
+                {!! Form::model( [ 'files'=> true, 'route' => ['jobs.store']]) !!}
                 <div class="form-group">
                     {!! Form::label('name', 'Name:') !!}<br />
                     {!! Form::text('name') !!}
                 </div>
                  
-                 <div class="form-group">
-                     {!! Form::label('email', 'Email:') !!}<br />
-                     {!! Form::text('email') !!}
-                 </div>
-
                 <div class="form-group">
-                    {!! Form::label('price', 'Price:') !!}<br />
-                    {!! Form::text('price') !!}
+					{!! Form::label('email', 'Email:') !!}<br />
+					{!! Form::text('email') !!}
                 </div>
-
                  
                 <div class="form-group">
                     {!! Form::label('message', 'Message:') !!}<br />
@@ -48,7 +42,7 @@
                 </div>
                  
                 <div class="form-group">
-                    {!! Form::submit('Submit') !!}
+                    {!! Form::submit('Submit', array('class' => 'btn-primary')) !!}
                 </div>
                     {!! Form::close() !!}
                 </div>  

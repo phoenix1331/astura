@@ -15,22 +15,22 @@
         <hr />
         <div class="row">
             <div class="col-lg-4">
-                <img class="" src="https://placeimg.com/300/150/tech" alt="Generic placeholder image">
+                <img class="" src="<?php echo asset('../img/tech.jpg'); ?>" alt="Generic placeholder image">
               <h2>Reach</h2>
               <p>The only client communication tool built specifically for the financial services market.</p>
-              <p><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
             </div>
             <div class="col-lg-4">
-                    <img class="" src="https://placeimg.com/300/150/tech" alt="Generic placeholder image">
+                    <img class="" src="<?php echo asset('../img/tech.jpg'); ?>" alt="Generic placeholder image">
               <h2>Engage</h2>
               <p>Market leading customer engagement technology in an easy to use and lightweight interface.</p>
-              <p><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
            </div>
             <div class="col-lg-4">
-                    <img class="" src="https://placeimg.com/300/150/tech" alt="Generic placeholder image">
+                    <img class="" src="<?php echo asset('../img/tech.jpg'); ?>" alt="Generic placeholder image">
               <h2>About</h2>
               <p>market leading customer engagement technology in an easy to use and lightweight interface.</p>
-              <p><a class="btn btn-default" href="#" role="button">Learn more &raquo;</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
             </div>
         </div>
         <hr />
